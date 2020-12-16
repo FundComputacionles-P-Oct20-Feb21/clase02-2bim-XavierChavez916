@@ -12,16 +12,20 @@
 10.  notasEstudiantes[1][2] <-- 7
 11. Para(fila<--0, fila<2, 1) haga
 12.   Para(columna<--0, columna<3, 1) haga
-13.     Escribir fila+" "+columna 
-14.   Fin_Para 
-15. Fin_Para 
-16. Fin
-// 0 0
-// 0 1 
-// 0 2 
-// 1 0
-// 1 1 
-// 1 2 
+13.     suma = suma + notasEstudiantes[fila][columna] 
+14.     Escribir fila+" "+columna +" valor: "+notasEstudiantes[fila][columna] 
+15.   Fin_Para 
+16. Fin_Para 
+17. Escribir "La suma total es: " + suma
+18. Fin
+
+// 0 0 valor 10 
+// 0 1 valor 7
+// 0 2 valor 8
+// 1 0 valor 9
+// 1 1 valor 5
+// 1 2 valor 7
+// La suma total es : 46
 
 
 
